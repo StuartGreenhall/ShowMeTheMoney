@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @credit_card.id %>
+</p>
+
+<p>
+  <b>Card name:</b>
+  <%= @credit_card.card_name %>
+</p>
+
+<p>
+  <b>Representive apr:</b>
+  <%= @credit_card.representive_apr %>
+</p>
+
+<p>
+  <b>Offer period:</b>
+  <%= @credit_card.offer_period %>
+</p>
+
+
+<%= link_to 'Edit', edit_credit_card_path(@credit_card) %> |
+<%= link_to 'Back', credit_cards_path %>

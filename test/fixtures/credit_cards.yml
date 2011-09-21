@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 1
+  card_name: MyString
+  representive_apr: MyString
+  offer_period: MyString
+
+two:
+  id: 1
+  card_name: MyString
+  representive_apr: MyString
+  offer_period: MyString
