@@ -10,12 +10,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110921193830) do
+ActiveRecord::Schema.define(:version => 20110921195225) do
 
   create_table "credit_cards", :force => true do |t|
     t.string   "card_name"
     t.string   "representive_apr"
     t.string   "offer_period"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "widgets", :force => true do |t|
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

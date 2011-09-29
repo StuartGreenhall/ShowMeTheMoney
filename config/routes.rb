@@ -1,4 +1,6 @@
 MoneyMaker::Application.routes.draw do
+  resources :widgets
+
   resources :credit_cards
 
   # The priority is based upon order of creation:

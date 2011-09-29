@@ -21,6 +21,10 @@ group :test, :development do
   gem "rspec-rails", "~> 2.4"
 end
 
+group :production do
+  gem 'pg'
+end
+
 gem 'jquery-rails'
 
 # Use unicorn as the web server
